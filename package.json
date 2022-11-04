@@ -1,0 +1,31 @@
+{
+  "name": "monorepo_learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "docs:test": "vitepress dev  docs",
+    "docs:dev": "vitepress dev docs --config ./vite.config.ts",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs --port 4321"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@iconify-json/ic": "1.1.4",
+    "@types/node": "^18.11.9",
+    "@vitejs/plugin-vue": "3.0.3",
+    "@vitejs/plugin-vue-jsx": "2.0.0",
+    "unocss": "0.45.6",
+    "vite": "3.0.7",
+    "vitepress": "1.0.0-alpha.27",
+    "vitepress-theme-demoblock": "^1.4.2"
+  },
+  "dependencies": {
+    "ip": "^1.1.8",
+    "vue": "3.2.37"
+  }
+}

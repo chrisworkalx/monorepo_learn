@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a,a as r}from"./app.e6b69cb5.js";const p='{"title":"SmartyUI","description":"","frontmatter":{},"headers":[{"level":2,"title":"Button \u6309\u94AE","slug":"button-\u6309\u94AE"}],"relativePath":"index.md"}',n={},o=r("",3),i=[o];function s(_,d,c,h,l,u){return a(),e("div",null,i)}var f=t(n,[["render",s]]);export{p as __pageData,f as default};

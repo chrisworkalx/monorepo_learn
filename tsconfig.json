@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "./dist/types",
+    "jsx": "preserve",
+    "lib": [
+      "es6",
+      "dom" 
+    ]
+  },
+  "include": ["./**/*.*", "./shims-vue.d.ts"],
+  "exclude": ["node_modules"],
+  "esModuleInterop": true,
+  "allowSyntheticDefaultImports": "true"
+}
