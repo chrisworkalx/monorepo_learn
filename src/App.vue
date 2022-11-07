@@ -5,6 +5,7 @@
     <SButton color="gray" round plain icon="check"></SButton>
     <SButton color="yellow" round plain icon="message"></SButton>
     <SButton color="red" round plain icon="delete"></SButton>
+    <TestClassCom></TestClassCom>
   </div>
 </template>
 

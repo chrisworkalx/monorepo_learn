@@ -11,8 +11,17 @@
 // import JSXButton from './button/JSXButton';
 // createApp(JSXButton).mount('#app');
 
-import { createApp } from 'vue';
+// import { createApp } from 'vue';
+import { createApp } from 'vue/dist/vue.esm-bundler';
+// createApp这种支持template写法
 
 import SmartyUI from './entry';
 import App from './App.vue';
-createApp(App).use(SmartyUI).use(SmartyUI).mount('#app');
+createApp(App).use(SmartyUI).mount('#app');
+// createApp({
+//   template: `
+//     <h1>what are you 弄啥嘞?</h1>
+//   `
+// })
+//   .use(SmartyUI)
+//   .mount('#app');

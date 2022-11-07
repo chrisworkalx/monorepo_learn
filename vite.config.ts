@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite';
-// import vue from '@vitejs/plugin-vue';
+import vue from '@vitejs/plugin-vue';
 import vueJsx from '@vitejs/plugin-vue-jsx';
 
 // import { presetUno, presetAttributify, presetIcons } from 'unocss';
@@ -21,7 +21,7 @@ const rollupOptions = {
 
 export default defineConfig({
   plugins: [
-    // vue(),
+    vue(),
     vueJsx({
       // options are passed on to @vue/babel-plugin-jsx
     }),
