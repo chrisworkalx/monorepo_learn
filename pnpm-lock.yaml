@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@chrisworkalx/vivi-ui': ^0.0.1
   '@iconify-json/ic': 1.1.4
   '@types/node': ^18.11.9
   '@vitejs/plugin-vue': 3.0.3
@@ -13,6 +14,7 @@ specifiers:
   vue: 3.2.37
 
 dependencies:
+  '@chrisworkalx/vivi-ui': 0.0.1
   ip: 1.1.8
   vue: 3.2.37
 
@@ -450,6 +452,10 @@ packages:
       '@babel/helper-string-parser': 7.19.4
       '@babel/helper-validator-identifier': 7.19.1
       to-fast-properties: 2.0.0
+
+  /@chrisworkalx/vivi-ui/0.0.1:
+    resolution: {integrity: sha512-Ar4J2auqdpqopp9SG7arkzCzTeTxFWGsxH14iUdfj8KDz3LFcWS+EieyhGRIkI78VA3mfbPzek10Y6uAfG4I8g==}
+    dev: false
 
   /@docsearch/css/1.0.0-alpha.28:
     resolution: {integrity: sha512-1AhRzVdAkrWwhaxTX6/R7SnFHz8yLz1W8I/AldlTrfbNvZs9INk1FZiEFTJdgHaP68nhgQNWSGlQiDiI3y2RYg==}

@@ -25,6 +25,7 @@
     "vitepress-theme-demoblock": "^1.4.2"
   },
   "dependencies": {
+    "@chrisworkalx/vivi-ui": "^0.0.1",
     "ip": "^1.1.8",
     "vue": "3.2.37"
   }
